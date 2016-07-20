@@ -13,6 +13,7 @@ public class Main {
 		data storedInfo = new data(currentInfo);
 		
 		System.out.println("Current Info is " + storedInfo.getData(2));
+		System.out.println("That is all folks!");
 	}
 	
 }
