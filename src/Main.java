@@ -9,6 +9,10 @@ public class Main {
 		System.out.println("Hello, this is the second commit");
 		System.out.println("Hello, this is the third commit");
 		
+		String[] currentInfo = {"car","pig","frog"};
+		data storedInfo = new data(currentInfo);
+		
+		System.out.println("Current Info is " + storedInfo.getData(2));
 	}
 	
 }
